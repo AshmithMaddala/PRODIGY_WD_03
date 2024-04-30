@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(125, 100%, 98%);
+}
+
+h1 {
+  color: #1abc9c; /* Turquoise */
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.ui {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  border: none;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #3498db; /* Peter River */
+  color: #fff; /* White */
+}
+
+.cell:active {
+  outline: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(181, 255, 230);
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 310px;
+}
+
+/* 3*3 Grid */
+#b1 {
+  border-bottom: 1px solid #ccc; /* Light Gray */
+  border-right: 1px solid #ccc; /* Light Gray */
+}
+
+#b2 {
+  border-bottom: 1px solid #ccc; /* Light Gray */
+  border-right: 1px solid #ccc; /* Light Gray */
+  border-left: 1px solid #ccc; /* Light Gray */
+}
+
+#b3 {
+  border-bottom: 1px solid #ccc; /* Light Gray */
+  border-left: 1px solid #ccc; /* Light Gray */
+}
+
+#b4 {
+  border-top: 1px solid #ccc; /* Light Gray */
+  border-bottom: 1px solid #ccc; /* Light Gray */
+  border-right: 1px solid #ccc; /* Light Gray */
+}
+
+#b5 {
+  border: 1px solid #ccc; /* Light Gray */
+}
+
+#b6 {
+  border-top: 1px solid #ccc; /* Light Gray */
+  border-bottom: 1px solid #ccc; /* Light Gray */
+  border-left: 1px solid #ccc; /* Light Gray */
+}
+
+#b7 {
+  border-top: 1px solid #ccc; /* Light Gray */
+  border-right: 1px solid #ccc; /* Light Gray */
+}
+
+#b8 {
+  border-top: 1px solid #ccc; /* Light Gray */
+  border-right: 1px solid #ccc; /* Light Gray */
+  border-left: 1px solid #ccc; /* Light Gray */
+}
+
+#b9 {
+  border-top: 1px solid #ccc; /* Light Gray */
+  border-left: 1px solid #ccc; /* Light Gray */
+}
+
+/* Reset Button */
+#but {
+  box-sizing: border-box;
+  width: 95px;
+  height: 40px;
+  border: 1px solid #27ae60; /* Emerald */
+  margin-left: auto;
+  border-radius: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ecf0f1; /* Clouds */
+  color: #27ae60; /* Emerald */
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Player turn space */
+#print {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #27ae60; /* Emerald */
+  font-size: 20px;
+}
+
+/* Main Container */
+#main {
+  text-align: center;
+}
+
+/* Game Instruction Text */
+#ins {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #27ae60; /* Emerald */
+}
